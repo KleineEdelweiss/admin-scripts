@@ -6,12 +6,14 @@ If you take any of these, you will most likely want to use hotkeys or cronjobs w
 Will update this, from time to time, as I add new scripts.
 
 ### USAGE ###
-# volumectl.rb #
+[volumectl.rb]
+```
 ruby [path/to/]volumectl.rb [volume, type, display]
   ex: ruby ~/scripts/volumectl.rb 50 <- changes volume to 50%
   ex: ruby ~/scripts/volumectl.rb 20 up <- raises volume by 20%
   ex: ruby ~/scripts/volumectl.rb 10 down true <- lowers volume
         by 10% and then prints the volumes for all channels
+```
 
 ### INSTALLATION ###
 Clone the repo or download each individual script you want.
@@ -24,7 +26,7 @@ Install the gems (while in the directory).
 bundle install
 ```
 
-# The above operation requires bundler #
+[The above operation requires bundler]
 ```
 sudo gem install bundler
 ```
